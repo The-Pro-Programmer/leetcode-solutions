@@ -1,0 +1,5 @@
+Pandas overview:
+- Its an open source tool
+- Its built using Python
+- Installation command:
+.venv\Scripts\python.exe -m pip install Pandas
