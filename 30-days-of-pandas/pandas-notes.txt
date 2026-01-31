@@ -3,3 +3,10 @@ Pandas overview:
 - Its built using Python
 - Installation command:
 .venv\Scripts\python.exe -m pip install Pandas
+
+DataFrame:
+- pandas DataFrame is like a 2D Array
+- The isin() function checks if each element in a pandas Series exists in a given list or array of values. It returns a boolean Series.
+    customers['id'].isin(orders['customerId'])
+- We can rename output columns using rename method: 
+    .rename(columns = {'orig-name'. 'new-name'})
