@@ -10,3 +10,6 @@ DataFrame:
     customers['id'].isin(orders['customerId'])
 - We can rename output columns using rename method: 
     .rename(columns = {'orig-name'. 'new-name'})
+- Duplicates can be removed with drop_duplicates() method
+    result = result.drop_duplicates()
+- 
