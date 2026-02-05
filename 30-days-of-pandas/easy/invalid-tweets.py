@@ -1,3 +1,5 @@
+## https://leetcode.com/problems/invalid-tweets/submissions/1908166780/?envType=study-plan-v2&envId=30-days-of-pandas&lang=pythondata
+
 import pandas as pd
 
 def invalid_tweets(tweets: pd.DataFrame) -> pd.DataFrame:
