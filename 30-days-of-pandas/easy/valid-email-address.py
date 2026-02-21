@@ -7,7 +7,9 @@ def valid_emails(users: pd.DataFrame) -> pd.DataFrame:
     # Runtime 314 ms
     return users.loc[users['mail'].str.contains(r'^[A-Za-z][A-Za-z0-9._-]*@leetcode\.com$'), ['user_id', 'name', 'mail']].sort_values('user_id')
 
-    # Hack
+def valid_emails2(users: pd.DataFrame) -> pd.DataFrame:
+    # Hack 
+    #Runtime 210 ms
     return users[users["mail"].str.match(r'^[A-Za-z][A-Za-z0-9_.-]*@leetcode\.com$')][["user_id", "name", "mail"]]
 __import__('atexit').register(lambda: open('display_runtime.txt', "w").write("0"))
 
