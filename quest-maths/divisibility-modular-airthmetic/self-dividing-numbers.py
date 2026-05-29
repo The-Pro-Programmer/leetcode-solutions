@@ -1,5 +1,4 @@
 ## https://leetcode.com/problems/self-dividing-numbers/?envType=problem-list-v2&envId=maths-m2-divisibility-modular-arithmetic
-
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
         result = []
